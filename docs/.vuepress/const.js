@@ -1,4 +1,4 @@
-exports.JavaScriptList = []
+exports.JavaScriptList = ["Javascript/모듈"]
 exports.HTMLList = []
 exports.CSSList = []
 exports.ReactList = []
