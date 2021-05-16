@@ -1,6 +1,1 @@
-exports.JavaScriptList = ["Javascript/모듈"]
-exports.HTMLList = []
-exports.CSSList = []
-exports.ReactList = []
-exports.DatabaseList = []
-exports.MongoDBList = []
+module.exports.AlogoList = ["Algorithm/C++입력.md"]
