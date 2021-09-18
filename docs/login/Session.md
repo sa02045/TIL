@@ -23,3 +23,7 @@ sessionId = SHA2(username + ipAddress + secretKey);
 - 이 방법의 장점은 세션ID를 별도의 데이터베이스에 저장할 필요가 없다는 점입니다
 
 좀더 안정적인 보안을 위해 난수를 섞어 생성할 수 도 있습니다
+
+### 참고
+
+1. [세션이란](https://devhaks.github.io/2019/04/20/session-strategy/)
