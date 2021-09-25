@@ -27,6 +27,17 @@
 
 - 템플릿엔진을 렌더링할 때
 
-# 라우터가 요청을 처리하지 못할 때
+# res 메서드 정리
 
-1.
+1. writeHead
+   | response.writeHead(statusCode[, statusMessage][, headers])
+
+```js
+const body = "hello world";
+response
+  .writeHead(200, {
+    "Content-Length": Buffer.byteLength(body),
+    "Content-Type": "text/plain",
+  })
+  .end(body);
+```
