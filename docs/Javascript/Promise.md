@@ -1,0 +1,4 @@
+- function combinator
+- Monad
+- lazy evaluation -> generator
+- FE세계에서는 RxJS를 추천
